@@ -362,6 +362,10 @@ footer .gallery img {
         max-width:fit-content;
     }
 
+    .testimonial p {
+        max-width:fit-content;
+    }
+
     .content-with-img p {
         bottom:5rem;
     }
