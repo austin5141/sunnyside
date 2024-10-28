@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow", serif;
+}
+
+nav {
+    position:relative;
+}
+
+.img-mobile {
+    display:none;
+}
+
+.header-img-mobile {
+    display:none;
+    z-index:-1;
+}
+
+.hamburger {
+    display:none;
+    background:none;
+    border:none;
+    position:absolute;
+    top:2rem;
+    right:3rem;
+}
+
+.hamburger:hover {
+    cursor:pointer;
+}
+
+.menu-mobile {
+    display:none;
+}
+
+.box .logo {
+    position:absolute;
+    top:2rem;
+    left:3rem;
+}
+
+.box .buttons {
+    position:absolute;
+    top:2rem;
+    right:0;
+}
+
+.box .buttons a {
+    text-decoration:none;
+    margin-right:2rem;
+}
+
+.link {
+    color:white;
+}
+
+.contact-btn {
+    color:hsl(212, 27%, 19%);
+    background-color:white;
+    font-family: "Fraunces", serif;
+    text-transform:uppercase;
+    padding-block:0.8rem;
+    padding-inline:1rem;
+    border-radius:5rem;
+    font-weight:700;
+}
+
+.contact-btn:hover {
+    background-color: hsl(182, 52%, 64%);
+    color:white;
+}
+
+h1 {
+    text-align:center;
+    letter-spacing:0.5rem;
+    font-size:2.5rem;
+    text-transform:uppercase;
+    position:relative;
+    top:6rem;
+    color:white;
+    font-family:"Fraunces", serif;
+}
+
+p {
+    line-height:1.5rem;
+}
+
+.header {
+    position:absolute;
+    top:4rem;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.arrow {
+    position:relative;
+    left:50%;
+    right:50%;
+    top:13rem;
+    transform:translateX(-50%);
+}
+
+.header-img {
+    width:100%;
+    height:45rem;
+}
+
+.img-transform {
+    width:100%;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    position:relative;
+    bottom:0.2rem;
+}
+
+.grid .content {
+    padding:10rem;
+    margin-block:5rem;
+}
+
+.grid img {
+    width:100%;
+}
+
+.grid .content h2 {
+    font-family: "Fraunces", serif;
+    font-size:3rem;
+    margin-bottom:2rem;
+    color:hsl(212, 27%, 19%);
+}
+
+.grid .content p {
+    max-width:25rem;
+    margin-bottom:2rem;
+    color:hsl(232, 10%, 55%);
+}
+
+.grid .content a {
+    text-decoration:none;
+    font-size:1.1rem;
+    text-transform:uppercase;
+    font-family: "Fraunces", serif;
+    color: hsl(212, 27%, 19%);
+    letter-spacing:0.2rem;
+    font-weight:800;
+    border-bottom:solid 4px hsl(46, 100%, 84%);
+    border-radius:1rem;
+}
+
+#link-1:hover {
+    border-bottom: solid 4px hsl(51, 100%, 49%);
+}
+
+#link-2:hover {
+    border-bottom: solid 4px hsl(7, 99%, 70%);
+}
+
+.content-with-img {
+    position:relative;
+    bottom:0.2rem;
+}
+
+.content-with-img h2 {
+    position:absolute;
+    bottom:15rem;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.content-with-img p {
+    position:absolute;
+    bottom:10rem;
+    max-width:25rem;
+    left:50%;
+    transform:translateX(-50%);
+    text-align:center;
+}
+
+.graphic-design {
+    color: hsl(167, 40%, 24%);
+}
+
+.photography {
+    color: hsl(198, 62%, 26%);
+}
+
+#testimonials-heading {
+    text-align:center;
+    margin-bottom:3rem;
+}
+
+.testimonials {
+    display:flex;
+    gap:1rem;
+    text-align:center;
+    padding:2.5rem;
+    justify-content:center;
+}
+
+.testimonial .profile-img {
+    width:5rem;
+    margin-bottom:3rem;
+    border-radius:50%;
+}
+
+.testimonial p {
+    max-width:30rem;
+}
+
+.testimonial .name {
+    font-size: 1.3rem;
+    font-family:"Fraunces", serif;
+    margin-bottom:0.5rem;
+    margin-top:3rem;
+}
+
+.testimonial .role {
+    font-size:1rem;
+}
+
+footer {
+    width:100%;
+    background-color:hsl(168, 70%, 72%);
+    height:60rem;
+}
+
+.gallery {
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+}
+
+footer .gallery img {
+    width:100%;
+}
+
+.footer-logo {
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    margin-bottom:2rem;
+    margin-top:5rem;
+    width:10rem;
+    filter: invert(50%) sepia(14%) saturate(1058%) hue-rotate(118deg) brightness(93%) contrast(98%);
+}
+
+.main-links {
+    text-align:center;
+}
+
+.main-links a {
+    text-decoration:none;
+    color:hsl(168, 34%, 41%);
+    font-weight:500;
+    margin-inline:2rem;
+}
+
+.main-links a:hover {
+    color:white;
+}
+
+.social-links {
+    text-align:center;
+    margin-top:5rem;
+}
+
+.social-links a {
+    margin-inline:0.8rem;
+}
+
+.social-links a:hover {
+    filter: invert(100%) sepia(91%) saturate(2%) hue-rotate(123deg) brightness(109%) contrast(101%);
+}
+
+@media(max-width:1200px) {
+    .header-img {
+        display:none;
+    }
+
+    .img-desktop {
+        display:none;
+    }
+
+    .img-mobile {
+        display:block;
+    }
+
+    .header-img-mobile {
+        display:block;
+        width:100%;
+        height:55rem;
+    }
+
+    .header {
+        top:10rem;
+    }
+
+    .buttons {
+        display:none;
+    }
+
+    .hamburger {
+        display:block;
+    }
+
+    .menu-mobile.hidden {
+        display:none;
+    }
+
+    .menu-mobile {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        background-color:white;
+        position:absolute;
+        top:5rem;
+        right:2rem;
+        width:20rem;
+        padding:2rem;
+        z-index:1;
+    }
+
+    .link-mobile {
+        text-decoration:none;
+        margin-top:1rem;
+        text-align:center;
+        color:hsl(232, 10%, 55%);
+    }
+
+    .contact-btn-mobile {
+        text-decoration:none;
+        margin-top:1rem;
+        background-color:hsl(51, 100%, 49%);
+        color:hsl(212, 27%, 19%);
+        width:fit-content;
+        font-family: "Fraunces", serif;
+        text-transform:uppercase;
+        padding-block:0.8rem;
+        padding-inline:1rem;
+        border-radius:5rem;
+        font-weight:700;
+    }
+
+    .grid {
+        grid-template-columns:1fr;
+    }
+
+    .grid .content {
+        padding:0;
+        margin-inline:center;
+        text-align:center;
+    }
+
+    .grid .content p {
+        max-width:fit-content;
+    }
+
+    .content-with-img p {
+        bottom:5rem;
+    }
+
+    .testimonials {
+        flex-direction:column;
+    }
+
+    .testimonial .profile-img {
+        margin-top:4rem;
+    }
+
+    footer .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
